@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Modulo de Proveedores",
+    'name': "Modulo de Personas",
     'summary': """
     """,
     'description': """
@@ -19,7 +19,8 @@
     ],
 
     # always loaded
-    'data': ['views/proveedor_view.xml',
+    # le quite --> ,'data/personas_demo.xml'
+    'data': ['views/persona_view.xml','views/calendario_view.xml'
     ],
     'installable':True,
     'auto_install':False,

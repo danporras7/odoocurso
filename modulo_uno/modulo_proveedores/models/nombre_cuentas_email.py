@@ -3,11 +3,13 @@
 from odoo import fields
 from odoo import models
 
-class Nombre_cuentas_email (models.Model):
-    _name = 'nombre_cuentas_email.informacion_data'
+class NombresCuentasEmail (models.Model):
+    _name = 'personas.nombre_cuentas_email'
 
     name = fields.Char(
-        string="Name",
+        string="Dominio",
         required=True,
-        index=True,
+    )
+    dominio_publico = fields.Boolean(
+        string="¿El dominio es público?",
     )

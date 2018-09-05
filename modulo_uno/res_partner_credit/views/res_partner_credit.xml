@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="res_partner_credit_form" model="ir.ui.view"><!--esta vista pertenece al modelo-->
+            <field name="name">res.partner.credit.form</field><!--texto arbitrario pero se utlizia esta forma por convención-->
+            <field name="model">res.partner</field><!--texto arbitrario pero se utlizia esta forma por convención, viene del modelo base-->
+            <field name="inherit_id" ref="base.view_partner_form"></field><!--Referencía al alemento heredado por su ID-->
+            <field name="arch" type="xml">
+                <xpath expr="//form/sheet/notebook/page[@name='sales_purchases']/group/
+                       group[1]/field[@name='user_id']" position="after">
+                    <field name="credit_limit"></field>
+                    <field name="barcode"></field>
+                    <field name="porcentaje" widget="progressbar"/>
+                    <field name="instructor_id"></field>
+
+                    <field name="amount"/>
+                    <field name="unit_price"/>
+                    <field name="price"/>
+
+                    <field name="geolocaliza"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

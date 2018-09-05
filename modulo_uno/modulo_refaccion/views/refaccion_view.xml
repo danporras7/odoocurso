@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--comentarios-->
+<odoo>
+    <data>
+        <record id="refaccion_form_view" model="ir.ui.view"><!--esta vista pertenece al modelo-->
+            <field name="name">refaccion.form.view</field><!--texto arbitrario pero se utlizia esta forma por convención-->
+            <field name="model">refaccion.main_data</field><!--texto arbitrario pero se utlizia esta forma por convención, viene del modelo creado-->
+            <field name="arch" type="xml"><!--arquitectura-->
+                <form>
+                    <sheet><!--hoja que es un espacio dentro de lo mostrado por el navegador-->
+                        <!--se pueden poner algunos atributos HTML-->
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name" placeholder="Nombre de la refacción"/><!--recomendable primero poner los campos que se definieron como requeridos-->
+                            </h1>
+                        </div>
+                        <field name="foto" widget="image" class="oe_left oe_avatar"/>
+                        <group>
+                            <field name="descripcion"></field>
+                            <field name="fecha"></field>
+                            <field name="proveedor_ids" nolabel="1">
+                                <tree editable="top">
+                                    <field name="name"></field>
+                                    <field name="direccion"></field>
+                                    <field name="email"></field>
+                                    <field name="proveedor_ids" readonly="True"/>
+                                </tree>
+                            </field>
+                            <field name="unidad"></field>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="refaccion_tree_view" model="ir.ui.view">
+            <field name="name">refaccion.tree.view</field>
+            <field name="model">refaccion.main_data</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"></field>
+                    <field name="descripcion"></field>
+                </tree>
+            </field>
+        </record>
+
+          <record id="refaccion_search_view" model="ir.ui.view">
+            <field name="name">refaccion.search.view</field>
+            <field name="model">refaccion.main_data</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name" />
+                    <field name="descripcion"></field>
+                </search>
+            </field>
+        </record>
+
+        <record id="refaccion_action_window" model="ir.actions.act_window">
+            <field name="name">refaccion</field>
+            <field name="res_model">refaccion.main_data</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem
+            id="master_data_refaccion"
+            name="Modulo de Refacciones"
+            sequence="50"
+        />
+
+        <menuitem
+            id="refacciones_menuitem"
+            name="Refacciones"
+            action="refaccion_action_window"
+            parent="master_data_refaccion"
+            sequence="10"
+        />
+    </data>
+</odoo>

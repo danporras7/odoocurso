@@ -3,11 +3,13 @@
 from odoo import fields
 from odoo import models
 
-class Grados_estudio (models.Model):
-    _name = 'grados_estudio.informacion_data'
+class GradosEstudio (models.Model):
+    _name = 'personas.grados_estudio'
 
     name = fields.Char(
-        string="Name",
+        string="Nivel de estudios",
         required=True,
-        index=True,
+    )
+    anios = fields.Integer(
+        string="Años de estudio",
     )

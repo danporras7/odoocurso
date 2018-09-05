@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--comentarios-->
+<odoo>
+    <data>
+        <record id="calendario_tree_view" model="ir.ui.view">
+            <field name="name">calendario.view</field>
+            <field name="model">personas.calendario</field>
+            <field name="arch" type="xml">
+                <calendar string="Session Calendar" date_start="date_start" date_stop="date_stop" color="color">
+                     <field name="date_start"/>
+                </calendar>
+            </field>
+        </record>
+
+        <record id="calendario_action_window" model="ir.actions.act_window">
+            <field name="name">calendario</field>
+            <field name="res_model">personas.calendario</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">calendar,tree,form</field>
+        </record>
+
+        <menuitem
+            id="calendar_data_training"
+            name="Calendario"
+            sequence="50"
+        />
+
+        <menuitem
+            id="calendario_menuitem"
+            name="Calendario"
+            action="calendario_action_window"
+            parent="calendar_data_training"
+            sequence="10"
+        />
+    </data>
+</odoo>
