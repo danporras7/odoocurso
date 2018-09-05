@@ -2,6 +2,7 @@
 
 from odoo import models, fields, api, exceptions
 from datetime import datetime, timedelta
+from odoo.tools import float_is_zero, float_compare, DEFAULT_SERVER_DATETIME_FORMAT
 
 class Calendario (models.Model):
     _name = 'personas.calendario'
@@ -14,9 +15,12 @@ class Calendario (models.Model):
     )
     date_start = fields.Datetime(
         string='Fecha inicio',
-        default=datetime.now()
+        default=fields.Datetime.now,
+        store=True
     )
-    date_stop = fields.Date(
+
+    date_stop = fields.Datetime(
         string='Fecha termino',
-        default = datetime.now()
+        default=fields.Datetime.now,
+        store = True
     )

@@ -8,6 +8,7 @@
             <field name="arch" type="xml">
                 <calendar string="Session Calendar" date_start="date_start" date_stop="date_stop" color="color">
                      <field name="date_start"/>
+                     <field name="name"/>
                 </calendar>
             </field>
         </record>

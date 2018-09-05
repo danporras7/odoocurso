@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="779aa97f-8965-49ea-98f1-2c94c2fb7c0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/volumen_practica.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/volumen_practica.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../modulo_proveedores/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../modulo_proveedores/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../modulo_proveedores/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../modulo_proveedores/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../modulo_proveedores/.idea/modulo_proveedores.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../modulo_proveedores/.idea/modulo_proveedores.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../modulo_proveedores/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../modulo_proveedores/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../modulo_proveedores/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../modulo_proveedores/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modulo_uno.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modulo_uno.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/.idea/modulo_proveedores.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/.idea/modulo_proveedores.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/__manifest__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/models/autos.py" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/models/autos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/models/grados_estudio.py" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/models/grados_estudio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/models/module_demo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/models/nombre_cuentas_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/models/nombre_cuentas_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/models/persona.py" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/models/persona.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/views/proveedor_view.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_uno/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_uno/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_uno/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_uno/__manifest__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/models/calendario.py" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/models/calendario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/views/calendario_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/views/calendario_view.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,26 +37,26 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="py" value="975" />
-          <entry key="xml" value="229" />
+          <entry key="py" value="996" />
+          <entry key="xml" value="230" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="975" />
-          <entry key="XML" value="229" />
+          <entry key="Python" value="996" />
+          <entry key="XML" value="230" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../modulo_proveedores/models/calendario.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="135">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="8" />
               <folding>
                 <element signature="e#25#73#0" expanded="true" />
               </folding>
@@ -148,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../modulo_proveedores/views/calendario_view.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -208,8 +177,8 @@
         <option value="$PROJECT_DIR$/../modulo_proveedores/models/persona.py" />
         <option value="$PROJECT_DIR$/../modulo_proveedores/__manifest__.py" />
         <option value="$PROJECT_DIR$/../modulo_proveedores/views/persona_view.xml" />
-        <option value="$PROJECT_DIR$/../modulo_proveedores/views/calendario_view.xml" />
         <option value="$PROJECT_DIR$/../modulo_proveedores/models/calendario.py" />
+        <option value="$PROJECT_DIR$/../modulo_proveedores/views/calendario_view.xml" />
       </list>
     </option>
   </component>
@@ -426,20 +395,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../modulo_proveedores/views/calendario_view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../modulo_proveedores/models/calendario.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="8" />
           <folding>
             <element signature="e#25#73#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../modulo_proveedores/views/calendario_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
