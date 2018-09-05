@@ -2,13 +2,35 @@
 <!--comentarios-->
 <odoo>
     <data>
+
+        <record id="calendario_form_view" model="ir.ui.view">
+            <field name="name">calendario.form.view</field>
+            <field name="model">personas.calendario</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                       <div class="oe_title">
+                            <h1>
+                                <field name="name" placeholder="Evento"/>
+                            </h1>
+                       </div>
+                        <group>
+                            <field name="name"/>
+                            <field name="date_start"/>
+                            <field name="date_stop"/>
+                            <field name="color" widget="color"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
         <record id="calendario_tree_view" model="ir.ui.view">
             <field name="name">calendario.view</field>
             <field name="model">personas.calendario</field>
             <field name="arch" type="xml">
                 <calendar string="Session Calendar" date_start="date_start" date_stop="date_stop" color="color">
-                     <field name="date_start"/>
-                     <field name="name"/>
+                    <field name="name"/>
                 </calendar>
             </field>
         </record>
