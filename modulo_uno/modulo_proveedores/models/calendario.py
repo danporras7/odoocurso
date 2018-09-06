@@ -10,8 +10,11 @@ class Calendario (models.Model):
     name = fields.Char(
         string="Descripcion Evento"
     )
-    color = fields.Integer(
+    color = fields.Char(
         string="Color",
+        help="Elige el color",
+        size=7,
+        store = True
     )
     date_start = fields.Datetime(
         string='Fecha inicio',

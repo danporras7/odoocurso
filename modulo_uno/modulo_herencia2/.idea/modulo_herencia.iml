@@ -4,8 +4,10 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="res_partner_credit" />
     <orderEntry type="module" module-name="modulo_proveedores" />
-    <orderEntry type="module" module-name="modelo_constraints" />
-    <orderEntry type="module" module-name="modulo_herencia" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
   </component>
 </module>
