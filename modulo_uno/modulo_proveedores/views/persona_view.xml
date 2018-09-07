@@ -25,6 +25,7 @@
                             <group>
                                 <field name="informacion_adicional"></field>
                                 <field name="sexo"></field>
+                                <field name="sexo"></field>
 
                             </group>
                         </group>
@@ -68,7 +69,8 @@
                 </tree>
             </field>
         </record>
-          <record id="persona_search_view" model="ir.ui.view">
+
+        <record id="persona_search_view" model="ir.ui.view">
             <field name="name">persona.search.view</field>
             <field name="model">persona.main_data</field>
             <field name="arch" type="xml">
@@ -89,17 +91,18 @@
         </record>
 
         <menuitem
-            id="master_data_training"
-            name="Modulo de Personas"
-            sequence="50"
-        />
-
-        <menuitem
             id="personas_menuitem"
             name="Personas"
             action="persona_action_window"
             parent="master_data_training"
             sequence="10"
         />
+
+        <menuitem
+            id="master_data_training"
+            name="Modulo de Personas"
+            sequence="50"
+        />
+
     </data>
 </odoo>

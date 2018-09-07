@@ -19,7 +19,7 @@
 
     # any module necessary for this one to work correctly
     'depends': [
-        'base','purchase', 'sale_stock', 'stock', 'stock_account'
+        'base','stock'
     ],
 
     # always loaded

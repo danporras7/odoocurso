@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record model='ir.ui.view' id='stock_move_view_inherit'>
+            <field name='name'>product_oculta_view_inherit</field>
+            <field name='model'>product.template</field>
+            <field name="inherit_id" ref="product.product_template_only_form_view"/>
+            <field name='arch' type='xml'>
+                <xpath expr="//tree" position="replace">
+                    <tree string='description'>
+                        <field name="description"/>
+                    </tree>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="product_ocultar_inherit_action" model="ir.actions.act_window">
+            <field name="name">Productos XD</field>
+            <field name="res_model">product.template</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="product_ocultar_item" name="Stock Move"
+            action="product_move_inherit_action" sequence="40"
+            parent="product_ocultar_inherit_action" />
+    </data>
+</odoo>

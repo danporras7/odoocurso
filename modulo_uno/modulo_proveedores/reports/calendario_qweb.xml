@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <report
+        id="eventos_calendario"
+        model="personas.calendario"
+        string="Eventos"
+        report_type="qweb-pdf"
+        name="calendario.report_sencillo"
+        file="calendario.report_sencillo"
+    />
+
+    <template id="calendario_report_session_view">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="doc">
+                <t t-call="web.external_layout">
+                    <div class="page">
+                        <h2 t-field="doc.name"/>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>
+
+<!---
+
+ <report
+        id="eventos_calendario"
+        model="personas.calendario"
+        string="Eventos"
+        report_type="qweb-pdf"
+        name="calendario.report_sencillo"
+        file="calendario.report_sencillo"
+    />
+
+    <template id="calendario_report_session_view">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="doc">
+                <t t-call="web.external_layout">
+                    <div class="page">
+                        <h2 t-field="doc.name"/>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+
+
+        attachment_use="True"
+        attachment="(object.state in ('open','paid')) and
+            ('INV'+(object.number or '').replace('/','')+'.pdf')"
+
+                        <p>desde <span t-field="doc.date_start"/> a <span t-field="doc.date_stop"/></p>
+
+
+
+                        <h3>Attendees:</h3>
+                        <ul>
+                            <t t-foreach="doc.attendee_ids" t-as="attendee">
+                                <li><span t-field="attendee.name"/></li>
+                            </t>
+                        </ul>
+
+-->
+

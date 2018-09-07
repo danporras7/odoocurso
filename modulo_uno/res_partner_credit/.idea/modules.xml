@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../hide_purchase/.idea/hide_purchase.iml" filepath="$PROJECT_DIR$/../hide_purchase/.idea/hide_purchase.iml" />
       <module fileurl="file://$PROJECT_DIR$/../modelo_constraints/.idea/modelo_constraints.iml" filepath="$PROJECT_DIR$/../modelo_constraints/.idea/modelo_constraints.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../modulo_herencia2/.idea/modulo_herencia.iml" filepath="$PROJECT_DIR$/../modulo_herencia2/.idea/modulo_herencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../modulo_herencia3/.idea/modulo_herencia.iml" filepath="$PROJECT_DIR$/../modulo_herencia3/.idea/modulo_herencia.iml" />
       <module fileurl="file://$PROJECT_DIR$/../modulo_proveedores/.idea/modulo_proveedores.iml" filepath="$PROJECT_DIR$/../modulo_proveedores/.idea/modulo_proveedores.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/res_partner_credit.iml" filepath="$PROJECT_DIR$/.idea/res_partner_credit.iml" />
     </modules>

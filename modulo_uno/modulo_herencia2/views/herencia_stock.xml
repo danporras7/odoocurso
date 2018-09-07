@@ -14,6 +14,7 @@
                         <field name="location_id"/>
                         <field name="ordered_qty"/>
                         <field name="product_id"/>
+                        <field name="state"/>
                     </tree>
                 </xpath>
             </field>

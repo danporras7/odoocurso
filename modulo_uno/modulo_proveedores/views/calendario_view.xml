@@ -55,5 +55,28 @@
             parent="calendar_data_training"
             sequence="10"
         />
+
+        <report
+            id="eventos_calendario"
+            model="personas.calendario"
+            string="Eventos"
+            report_type="qweb-pdf"
+            name="calendario.report_sencillo"
+            file="calendario.report_sencillo"
+        />
     </data>
 </odoo>
+
+
+<!---
+        <record id="calendario_report_view" model="ir.ui.view">
+            <field name="name">reporte.view</field>
+            <field name="model">personas.calendario</field>
+            <field name="arch" type="xml">
+                <report string="reporte Calendar">
+                    <field name="name"/>
+                </report>
+            </field>
+        </record>
+
+-->

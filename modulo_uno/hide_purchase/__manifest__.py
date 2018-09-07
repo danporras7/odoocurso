@@ -1,13 +1,17 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Modulo de Personas",
+    'name': "Hide Purchase Module",
+
     'summary': """
     """,
+
     'description': """
-        Modulo creado como practica
+        Módulo para eliminar la pestaña "PURCHASE" de los productos en módulo Inventario
     """,
+
     'author': "Soluciones4G",
     'website': "http://www.soluciones4g.com",
+
     # Categories can be used to filter modules in modules listing
     # for the full list
     'category': 'Uncategorized',
@@ -16,13 +20,13 @@
     # any module necessary for this one to work correctly
     'depends': [
         'base',
+        'stock',
+        'product',
     ],
 
     # always loaded
-    # le quite --> ,'data/personas_demo.xml'
-    'data': ['views/persona_view.xml',
-             'views/calendario_view.xml',
-             'reports/calendario_qweb.xml'
+    'data': [
+        'views/purchase_hide_view.xml'
     ],
     'installable':True,
     'auto_install':False,
