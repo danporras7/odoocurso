@@ -43,12 +43,6 @@
         </record>
 
         <menuitem
-            id="calendar_data_training"
-            name="Calendario"
-            sequence="50"
-        />
-
-        <menuitem
             id="calendario_menuitem"
             name="Calendario"
             action="calendario_action_window"
@@ -56,19 +50,38 @@
             sequence="10"
         />
 
-        <report
-            id="eventos_calendario"
-            model="personas.calendario"
-            string="Eventos"
-            report_type="qweb-pdf"
-            name="calendario.report_sencillo"
-            file="calendario.report_sencillo"
+        <menuitem
+            id="calendar_data_training"
+            name="Calendario"
+            sequence="50"
         />
+
     </data>
 </odoo>
 
 
 <!---
+        <menuitem
+            id="calendario_menuitem_report"
+            name="Impresion"
+            action="report_sencillo"
+            parent="calendar_data_training"
+            sequence="11"
+        />
+
+
+
+
+        <report
+            id="eventos_calendario"
+            model="personas.calendario"
+            string="Eventos"
+            report_type="qweb-pdf"
+            name="menu_calendario.report_sencillo"
+            file="menu_calendario.report_sencillo"
+        />
+
+
         <record id="calendario_report_view" model="ir.ui.view">
             <field name="name">reporte.view</field>
             <field name="model">personas.calendario</field>

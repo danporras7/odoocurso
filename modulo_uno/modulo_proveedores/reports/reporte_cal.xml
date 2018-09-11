@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <report
+            id="calendario_report_sencillo"
+            model="personas.calendario"
+            string="Eventos"
+            report_type="qweb-pdf"
+            name="calendario.report_sencillo_view"
+            file="calendario.report_sencillo_view"
+        />
+    </data>
+</odoo>

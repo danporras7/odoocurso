@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <report
-        id="eventos_calendario"
-        model="personas.calendario"
-        string="Eventos"
-        report_type="qweb-pdf"
-        name="calendario.report_sencillo"
-        file="calendario.report_sencillo"
-    />
+    <template id="report_sencillo_rep">
+        <t t-call="web.external_layout">
+            <div class="page">
+                <h2 t-field="o.name"/>
+            </div>
+        </t>
+    </template>
 
-    <template id="calendario_report_session_view">
+    <template id="report_sencillo_view">
         <t t-call="web.html_container">
-            <t t-foreach="docs" t-as="doc">
-                <t t-call="web.external_layout">
-                    <div class="page">
-                        <h2 t-field="doc.name"/>
-                    </div>
-                </t>
+            <t t-foreach="docs" t-as="o">
+                <t t-call "calendario.report_sencillo_rep" t-lang="o.partner_id.lang" />
             </t>
         </t>
     </template>

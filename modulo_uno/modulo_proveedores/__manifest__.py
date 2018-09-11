@@ -22,8 +22,11 @@
     # le quite --> ,'data/personas_demo.xml'
     'data': ['views/persona_view.xml',
              'views/calendario_view.xml',
-             'reports/calendario_qweb.xml'
     ],
     'installable':True,
     'auto_install':False,
 }
+
+
+#              'reports/reporte_cal.xml',
+#              'reports/calendario_qweb.xml',

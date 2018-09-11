@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="779aa97f-8965-49ea-98f1-2c94c2fb7c0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../modulo_herencia2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_herencia2/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_herencia2/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_herencia2/__manifest__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_herencia2/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_herencia2/models/herencia_stock.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_herencia2/views/herencia_stock.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_herencia2/views/herencia_stock.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../modulo_proveedores/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/__manifest__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/models/persona.py" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/models/persona.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/reports/calendario_qweb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/reports/calendario_qweb.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../modulo_proveedores/views/calendario_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/views/calendario_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo_proveedores/views/persona_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo_proveedores/views/persona_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/res_partner_credit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/res_partner_credit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../purchase_hide_view.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +17,7 @@
     <session id="-695060417">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="2" />
@@ -39,28 +31,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="76" />
-          <entry key="xml" value="45" />
+          <entry key="py" value="77" />
+          <entry key="xml" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="76" />
-          <entry key="XML" value="45" />
+          <entry key="Python" value="77" />
+          <entry key="XML" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="py" value="2241" />
-          <entry key="xml" value="999" />
+          <entry key="py" value="2278" />
+          <entry key="xml" value="1244" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="2241" />
-          <entry key="XML" value="999" />
+          <entry key="Python" value="2278" />
+          <entry key="XML" value="1244" />
         </counts>
       </usages-collector>
     </session>
@@ -70,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../modulo_proveedores/views/persona_view.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="76" column="23" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="23" />
+            <state relative-caret-position="825">
+              <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -79,35 +71,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../modulo_proveedores/reports/calendario_qweb.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="33" selection-end-column="6" />
+            <state relative-caret-position="315">
+              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../modulo_proveedores/models/__init__.py">
+        <entry file="file://$PROJECT_DIR$/../modulo_proveedores/reports/reporte_cal.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../modulo_proveedores/__manifest__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            <state relative-caret-position="180">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../modulo_proveedores/__manifest__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../modulo_proveedores/views/calendario_view.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="315">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -126,6 +118,9 @@
       <find>master_data_training</find>
       <find>state</find>
       <find>dominios_email_ids</find>
+      <find>ir.actions.report</find>
+      <find>report</find>
+      <find>sencillo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,9 +148,11 @@
         <option value="$PROJECT_DIR$/../modulo_proveedores/models/persona.py" />
         <option value="$PROJECT_DIR$/../modulo_proveedores/views/persona_view.xml" />
         <option value="$PROJECT_DIR$/../modulo_proveedores/reports/calendario.xml" />
-        <option value="$PROJECT_DIR$/../modulo_proveedores/__manifest__.py" />
-        <option value="$PROJECT_DIR$/../modulo_proveedores/reports/calendario_qweb.xml" />
         <option value="$PROJECT_DIR$/../modulo_proveedores/views/calendario_view.xml" />
+        <option value="$PROJECT_DIR$/../modulo_proveedores/reports/reporte.xml" />
+        <option value="$PROJECT_DIR$/../modulo_proveedores/reports/calendario_qweb.xml" />
+        <option value="$PROJECT_DIR$/../modulo_proveedores/reports/reporte_cal.xml" />
+        <option value="$PROJECT_DIR$/../modulo_proveedores/__manifest__.py" />
       </list>
     </option>
   </component>
@@ -417,31 +414,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../modulo_proveedores/views/persona_view.xml">
+    <entry file="file://$PROJECT_DIR$/../modulo_proveedores/reports/reporte_cal.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="76" column="23" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../modulo_proveedores/__manifest__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        <state relative-caret-position="180">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../modulo_proveedores/reports/calendario_qweb.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="33" selection-end-column="6" />
+        <state relative-caret-position="315">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../modulo_proveedores/views/persona_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../modulo_proveedores/views/calendario_view.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="315">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../modulo_proveedores/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
