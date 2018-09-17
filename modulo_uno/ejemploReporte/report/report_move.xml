@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+		<report 
+            string="Stock Move" 
+            id="stock_move_qweb" 
+            model="stock.move" 
+            report_type="qweb-pdf"
+            name="ejemploReporte.stock_move_view"
+            file="ejemploReporte.stock_move_view"
+        />
+	</data>
+</odoo>
